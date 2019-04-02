@@ -1,5 +1,5 @@
-# TS Test
-typescriptを触ってみるためのプロジェクト
+# TS Template
+typescriptで開発をはじめるためのプロジェクト
 - webpack
 - devserver
 - testing
@@ -7,4 +7,4 @@ typescriptを触ってみるためのプロジェクト
 - null安全
 - scss
 
-あたりまで設定・確認してみた。便利そう。
+あたりまで設定されている
