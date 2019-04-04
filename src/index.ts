@@ -1,8 +1,9 @@
-import MyMod from './js/my_mod'
+import Fib from './js/fib'
 import './scss/style.scss'
 
-async function main(): Promise<void> {
-  const m = new MyMod()
+function main(): void {
+  const f = new Fib()
+  console.log(f.fib(10))
 }
 
 main()
