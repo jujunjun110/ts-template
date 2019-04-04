@@ -38,9 +38,7 @@
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"
   },
-  "dependencies": {
-    "request": "^2.88.0"
-  },
+  "dependencies": {},
   "nyc": {
     "include": [
       "src/js/*.ts"
