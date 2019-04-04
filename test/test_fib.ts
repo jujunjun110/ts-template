@@ -1,9 +1,7 @@
 import { assert } from 'chai'
 import Fib from '../src/js/fib'
 
-const f = new Fib()
-
-describe('MyMod Class', () => {
+describe('Fib Class', () => {
   it('calculate fib number', () => {
     const cases = [
       { case: 0, expected: 0 },
@@ -14,7 +12,7 @@ describe('MyMod Class', () => {
     ]
 
     for (const c of cases) {
-      assert.equal(f.fib(c.case), c.expected)
+      assert.equal(Fib.fib(c.case), c.expected)
     }
   })
 })
